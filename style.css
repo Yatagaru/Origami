@@ -1,0 +1,77 @@
+A {text-decoration: none;}
+html{
+  background-image: url(WoodBg.jpg);
+}
+body{
+  font-family: 'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  
+  background-color: rgb(212, 212, 212);
+}
+h2 {
+
+}
+h3{
+  color: #eee
+}
+a {
+  color: black
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.bigfont {
+  font-size: 30px;
+  
+}
+.subtitle{
+  font-size: 35px;
+  text-align: center;
+}
+.menu{
+  text-align: center;
+  background-color: #eee;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eee;
+  margin: auto 30px 30px 30px;
+  border: ridge;
+  border-color: saddlebrown;
+  border-width: 10px;;
+}
+.item{
+  min-width: 600px;
+  background-color: rgb(116, 84, 64);
+  color:#eee;
+  flex-grow: 2;
+ 
+}
+.img{
+  border-style: ridge;
+  border-radius: 20px;
+  border-width: 15px;
+  border-color: saddlebrown;
+}
+img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 0.5;
+}
+a:hover {
+ text-decoration: underline;
+ color: saddlebrown;
+ 
+}
